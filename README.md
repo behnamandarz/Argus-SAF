@@ -7,19 +7,7 @@
 
 This is official reporitory for the [Argus-SAF](http://pag.arguslab.org/argus-saf). This repository have updated JN-SAF to SANT in order to have more precision.
 
-For test and play with Argus-SAF, you can fork from our [Argus-SAF-playground](https://github.com/arguslab/Argus-SAF-playground)
-project, which have the basic setup for a Argus-SAF enhanced project with demo codes of how to perform different kind of analysis.
 
-## Repository structure
-
-```
-Argus-SAF/
-+--src/main/scala/org.argus.saf/Main.scala     Main class for argus-saf CLI.
-+--jawa         Core static analysis data structures, "*.class"&"*.jawa" file managing, jawa compiler, class hierarchy, method body resolving, flow analysis, etc.
-+--amandroid    Android resource parsers, information collector, decompiler, environment method builder, flow analysis, etc.
-+--jnsaf        Java native interface analysis.
-+--nativedroid  Annotation based analysis using angr symbolic execution engine.
-```
 
 ## Obtaining Argus-SAF as library
 
