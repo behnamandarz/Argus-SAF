@@ -6,7 +6,7 @@ from nativedroid.analyses.resolver.jni.java_type import *
 #from nativedroid.analyses.resolver.annotation.taint_position_annotation import *
 #from nativedroid.analyses.resolver.jni.java_type.reference import *
 
-__author__ = "Xingwei Lin, Fengguo Wei"
+__author__ = "behnamandarz"
 __copyright__ = "Copyright 2018, The Argus-SAF Project"
 __license__ = "Apache v2.0"
 
