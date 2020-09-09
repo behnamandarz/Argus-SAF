@@ -5,7 +5,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a59d168b6fc42faaed643249ac3e2f5)](https://www.codacy.com/app/fgwei521/Argus-SAF?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arguslab/Argus-SAF&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/1a59d168b6fc42faaed643249ac3e2f5)](https://www.codacy.com/app/fgwei521/Argus-SAF?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arguslab/Argus-SAF&amp;utm_campaign=Badge_Coverage)
 
-This is official reporitory for the [Argus-SAF](http://pag.arguslab.org/argus-saf).
+This is official reporitory for the [Argus-SAF](http://pag.arguslab.org/argus-saf). This repository have updated JN-SAF to SANT in order to have more precision.
 
 For test and play with Argus-SAF, you can fork from our [Argus-SAF-playground](https://github.com/arguslab/Argus-SAF-playground)
 project, which have the basic setup for a Argus-SAF enhanced project with demo codes of how to perform different kind of analysis.
