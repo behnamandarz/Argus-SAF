@@ -60,8 +60,26 @@ class AnnotationBasedAnalysis(angr.Analysis):
                                                          keep_state=True, normalize=True, call_depth=5)
 
     def _hook_system_calls(self):
+        def _hook_system_calls(self):
+        if 'sprintf' in self.project.loader.main_object.imports:
+            self.project.hook_symbol('sprintf',Sprintf(),replace=True)
+        if 'snprintf' in self.project.loader.main_object.imports:
+            self.project.hook_symbol('snprintf',Snprintf(),replace=True)
+        if 'strcpy' in self.project.loader.main_object.imports:
+            self.project.hook_symbol('strcpy',Strcpy(),replace=True)
+
+        if 'strncpy' in self.project.loader.main_object.imports:
+            self.project.hook_symbol('strncpy',Strncpy(),replace=True)
+        if 'strcat' in self.project.loader.main_object.imports:
+            self.project.hook_symbol('strcat',Strcat(),replace=True)
+        if 'strncat' in self.project.loader.main_object.imports:
+            self.project.hook_symbol('strncat',Strncat(),replace=True)
+
+
+
         if '__android_log_print' in self.project.loader.main_object.imports:
             self.project.hook_symbol('__android_log_print', AndroidLogPrint(), replace=True)
+
 
     def count_cfg_instructions(self):
         """
